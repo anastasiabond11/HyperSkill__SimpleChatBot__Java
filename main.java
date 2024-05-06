@@ -2,12 +2,12 @@ package bot;
 
 import java.util.Scanner;
 
-public class SimpleBot {
-    final static Scanner scanner = new Scanner(System.in); 
+public class main {
+    final static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        greet("Remy", "2024"); 
-        yourdName();
+        greet("Remy", "2024");
+        yourName();
         guessAge();
         count();
         test();
@@ -66,6 +66,6 @@ public class SimpleBot {
     }
 
     static void end() {
-        System.out.println("Congratulations, have a nice day!"); 
+        System.out.println("Congratulations, have a nice day!");
     }
 }
